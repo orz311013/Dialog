@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/dailog01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一般訊息對話框" />
+
+    <Button
+        android:id="@+id/dailog02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="確認訊息" />
+
+    <Button
+        android:id="@+id/dailog03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="詢問訊息框" />
+
+    <Button
+        android:id="@+id/dailog04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="單選訊息框" />
+
+    <Button
+        android:id="@+id/dailog05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自訂訊息框" />
+
+
+</LinearLayout>
